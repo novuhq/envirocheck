@@ -1,0 +1,6 @@
+name: Novu
+dependencies:
+ - mongodb
+ - redis
+ - node: true
+   version: ">=14.0.0"
