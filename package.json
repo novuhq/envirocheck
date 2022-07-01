@@ -80,6 +80,9 @@
       "@commitlint/config-conventional"
     ]
   },
+  "bin": {
+    "envirocheck": "dist/envirocheck.js"
+  },
   "devDependencies": {
     "@commitlint/cli": "^7.1.2",
     "@commitlint/config-conventional": "^7.1.2",
