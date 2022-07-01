@@ -2,8 +2,6 @@
 
 Easily make sure required environment services are running before start a project.
 
-![](https://i.imgur.com/opUmHp0.png)
-
 ### Usage
 
 ```bash
