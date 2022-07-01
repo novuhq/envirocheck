@@ -1,12 +1,14 @@
-const { MongoClient } = require("mongodb");
+import { DependencyCheckerBase } from '../base-checker';
 
-export async function checkIfMongoDBIsOnline() {
-  try {
-    const client = await MongoClient.connect('mongodb://localhost:27017');
-    await client.close();
+export class MongoChecker extends DependencyCheckerBase {
+  async check(): Promise<boolean> {
+    try {
+      const inUse = await this.checkPort(27017);
 
-    return true;
-  } catch (e) {
-    return false;
+      return inUse;
+    } catch (e) {
+      console.error(e);
+      return false;
+    }
   }
-};
+}

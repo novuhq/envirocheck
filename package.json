@@ -117,10 +117,8 @@
     "typescript": "^3.0.3"
   },
   "dependencies": {
-    "@types/mongodb": "^4.0.7",
-    "@types/redis": "^4.0.11",
-    "mongodb": "^4.7.0",
-    "redis": "^4.1.0",
+    "@types/tcp-port-used": "^1.0.1",
+    "tcp-port-used": "^1.0.2",
     "yaml": "^2.1.1"
   }
 }

@@ -1,13 +1,14 @@
+import { DependencyCheckerBase } from '../base-checker';
 
-const redis = require('redis');
+export class RedisChecker extends DependencyCheckerBase {
+  async check(): Promise<boolean> {
+    try {
+      const inUse = await this.checkPort(6379);
 
-export async function checkIfRedisIsRunning() {
-  try {
-    const client = await redis.createClient();
-
-    return true;
-  } catch (e) {
-    console.error(e);
-    return false;
+      return inUse;
+    } catch (e) {
+      console.error(e);
+      return false;
+    }
   }
 }

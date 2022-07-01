@@ -1,11 +1,12 @@
 import * as fs from 'fs';
 import { parse, stringify } from 'yaml'
-import { checkIfMongoDBIsOnline } from './plugins/mongo';
-import { checkIfRedisIsRunning } from './plugins/redis';
+import { DependencyCheckerBase } from './plugins/base-checker';
+import { MongoChecker } from './plugins/mongo';
+import { RedisChecker } from './plugins/redis';
 
-const plugins: { [key: string]: () => Promise<boolean> } = {
-  'redis': checkIfRedisIsRunning,
-  'mongo': checkIfMongoDBIsOnline
+const plugins: { [key: string]: DependencyCheckerBase } = {
+  'redis': new RedisChecker(),
+  'mongodb': new MongoChecker()
 };
 
 (async () => {
@@ -16,12 +17,11 @@ const plugins: { [key: string]: () => Promise<boolean> } = {
     const plugin = plugins[dependency] ;
 
     if (plugin) {
-      const result = await plugin();
+      const result = await plugin.check();
 
       if (!result) {
         console.log(`${dependency} is not running`);
       }
     }
   }
-  console.log('HI')
 })()
