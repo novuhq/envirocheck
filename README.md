@@ -15,8 +15,6 @@ name: Sample Project Name
 dependencies:
  - mongodb
  - redis
- - node: true
-   version: ">=14.0.0"
 ```
 
 Add `envirocheck` in your `package.json` file:
