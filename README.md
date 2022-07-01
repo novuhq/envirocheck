@@ -1,6 +1,6 @@
 # Envirocheck
 
-Easily make sure required environment services are running before start a project.
+Easily make sure required environment services are running before start a project. Envirocheck will validate all needed services are running and provide instructions on how to install the missing services.
 
 ### Usage
 
