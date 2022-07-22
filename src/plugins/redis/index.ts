@@ -1,14 +1,15 @@
-import { DependencyCheckerBase } from '../base-checker';
+import { DependencyCheckerBase } from '../base-checker'
 
 export class RedisChecker extends DependencyCheckerBase {
+  constructor() {
+    super(6379, 'redis')
+  }
   async check(): Promise<boolean> {
     try {
-      const inUse = await this.checkPort(6379);
-
-      return inUse;
+      return super.check()
     } catch (e) {
-      console.error(e);
-      return false;
+      console.error(e)
+      return false
     }
   }
 }
