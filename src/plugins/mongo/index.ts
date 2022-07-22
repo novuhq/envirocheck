@@ -2,7 +2,7 @@ import { DependencyCheckerBase } from '../base-checker'
 
 export class MongoChecker extends DependencyCheckerBase {
   constructor() {
-    super(27018, 'mongodb')
+    super(27017, 'mongodb')
   }
 
   async check(): Promise<boolean> {
