@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 novuhq/envirocheck is built on the following main stack:
+
 - [Coveralls](https://coveralls.io/) – Code Coverage
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -15,11 +16,13 @@ novuhq/envirocheck is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 novuhq/envirocheck is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -33,14 +36,15 @@ novuhq/envirocheck is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [novuhq/envirocheck](https://github.com/novuhq/envirocheck)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|44<br/>Tools used|11/09/23 <br/>Report generated|
+|48<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -203,9 +207,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (27)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (31)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (27)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (31)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -213,11 +217,14 @@ Full tech stack [here](/techstack.md)
 |[@commitlint/config-conventional](https://www.npmjs.com/@commitlint/config-conventional)|v7.6.0|07/01/22|Dima Grossman |MIT|N/A|
 |[@types/jest](https://www.npmjs.com/@types/jest)|v23.3.14|07/01/22|Dima Grossman |MIT|N/A|
 |[@types/node](https://www.npmjs.com/@types/node)|v10.17.60|07/01/22|Dima Grossman |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v2.4.2|08/07/22|Dima Grossman |MIT|N/A|
 |[colors](https://www.npmjs.com/colors)|v1.0.3|06/29/22|Dima Grossman |MIT|N/A|
 |[commitizen](https://www.npmjs.com/commitizen)|v3.1.2|06/29/22|Dima Grossman |MIT|N/A|
 |[cross-env](https://www.npmjs.com/cross-env)|v5.2.1|06/29/22|Dima Grossman |MIT|N/A|
 |[cz-conventional-changelog](https://www.npmjs.com/cz-conventional-changelog)|v2.1.0|06/29/22|Dima Grossman |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v1.3.1|06/29/22|Dima Grossman |MIT|N/A|
 |[jest-config](https://www.npmjs.com/jest-config)|v23.6.0|06/29/22|Dima Grossman |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v8.2.1|06/29/22|Dima Grossman |MIT|N/A|
 |[lodash.camelcase](https://www.npmjs.com/lodash.camelcase)|v4.3.0|06/29/22|Dima Grossman |MIT|N/A|
 |[ora](https://www.npmjs.com/ora)|v5.4.1|06/29/22|Dima Grossman |MIT|N/A|
 |[prompt](https://www.npmjs.com/prompt)|v1.3.0|06/29/22|Dima Grossman |MIT|N/A|
@@ -228,6 +235,7 @@ Full tech stack [here](/techstack.md)
 |[rollup-plugin-node-resolve](https://www.npmjs.com/rollup-plugin-node-resolve)|v3.4.0|06/29/22|Dima Grossman |MIT|N/A|
 |[rollup-plugin-sourcemaps](https://www.npmjs.com/rollup-plugin-sourcemaps)|v0.4.2|06/29/22|Dima Grossman |MIT|N/A|
 |[rollup-plugin-typescript2](https://www.npmjs.com/rollup-plugin-typescript2)|v0.18.1|07/01/22|Dima Grossman |MIT|N/A|
+|[semantic-release](https://www.npmjs.com/semantic-release)|v15.14.0|06/29/22|Dima Grossman |MIT|[CVE-2020-26226](https://github.com/advisories/GHSA-r2j6-p67h-q639) (High)|
 |[shelljs](https://www.npmjs.com/shelljs)|v0.7.6|06/29/22|Dima Grossman |BSD-3-Clause|[CVE-2022-0144](https://github.com/advisories/GHSA-4rq4-32rv-6wp6) (High)<br/>[](https://github.com/advisories/GHSA-64g7-mvw6-v9qj) (Moderate)|
 |[travis-deploy-once](https://www.npmjs.com/travis-deploy-once)|v5.0.11|06/29/22|Dima Grossman |MIT|N/A|
 |[ts-jest](https://www.npmjs.com/ts-jest)|v23.10.5|06/29/22|Dima Grossman |MIT|N/A|
@@ -240,4 +248,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
