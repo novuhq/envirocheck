@@ -1,0 +1,665 @@
+repo_name: novuhq/envirocheck
+report_id: d0576b38d36ac4f2ec4b35bbd10d3578
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T09:22:41+00:00'
+requested_by: scopsy
+provider: github
+branch: master
+detected_tools_count: 48
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-07-01 12:12:11.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/novuhq/envirocheck
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/novuhq/envirocheck
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/.github/workflows/node.js.yml
+  detection_source: ".github/workflows/node.js.yml"
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-07-01 12:26:10.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-07-01 12:12:11.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 1.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-08-07 20:41:50.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: semantic-release
+  description: Fully automated version management and package publishing
+  website_url: https://github.com/semantic-release/semantic-release
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 7.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 7.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-07-01 12:12:11.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 23.3.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-07-01 12:12:11.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 10.17.60
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-07-01 12:12:11.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-08-07 20:41:50.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: commitizen
+  description: Git commit, but play nice with conventions
+  package_url: https://www.npmjs.com/commitizen
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16008/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: cz-conventional-changelog
+  description: Commitizen adapter following the conventional-changelog format
+  package_url: https://www.npmjs.com/cz-conventional-changelog
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15961/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: jest-config
+  description: Delightful JavaScript Testing
+  package_url: https://www.npmjs.com/jest-config
+  version: 23.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16848/default_1b078765f7b7ae4ccce598a7251eb06451511e5e.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 8.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: lodash.camelcase
+  description: The lodash method `_.camelCase` exported as a module
+  package_url: https://www.npmjs.com/lodash.camelcase
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16436/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: ora
+  description: Elegant terminal spinner
+  package_url: https://www.npmjs.com/ora
+  version: 5.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15937/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: prompt
+  description: A beautiful command-line prompt for node.js
+  package_url: https://www.npmjs.com/prompt
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16207/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: replace-in-file
+  description: A simple utility to quickly replace text in one or more files
+  package_url: https://www.npmjs.com/replace-in-file
+  version: 3.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16434/default_d73092129e1cde5ea9f47f22e2d7c3db7bd6da8d.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: rollup-plugin-commonjs
+  description: Convert CommonJS modules to ES2015
+  package_url: https://www.npmjs.com/rollup-plugin-commonjs
+  version: 9.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15873/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: rollup-plugin-json
+  description: 'Convert .json files to ES6 modules:'
+  package_url: https://www.npmjs.com/rollup-plugin-json
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16108/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: rollup-plugin-node-resolve
+  description: Bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/rollup-plugin-node-resolve
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15859/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: rollup-plugin-sourcemaps
+  description: Rollup plugin for grabbing source maps from sourceMappingURLs
+  package_url: https://www.npmjs.com/rollup-plugin-sourcemaps
+  version: 0.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16230/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: rollup-plugin-typescript2
+  description: Seamless integration between Rollup and TypeScript
+  package_url: https://www.npmjs.com/rollup-plugin-typescript2
+  version: 0.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16076/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-07-01 12:12:11.000000000 Z
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 15.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+  vulnerabilities:
+  - name: Secret disclosure when containing characters that become URI encoded
+    cve_id: CVE-2020-26226
+    cve_url: https://github.com/advisories/GHSA-r2j6-p67h-q639
+    detected_date: Aug 22
+    severity: high
+    first_patched: 17.2.3
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.7.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in shelljs
+    cve_id: CVE-2022-0144
+    cve_url: https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+    detected_date: Jan 22
+    severity: high
+    first_patched: 0.8.5
+  - name: Improper Privilege Management in shelljs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+    detected_date: Jan 15
+    severity: moderate
+    first_patched: 0.8.5
+- name: travis-deploy-once
+  description: Run a deployment script only once in the Travis test matrix
+  package_url: https://www.npmjs.com/travis-deploy-once
+  version: 5.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16501/default_e8b43b4cc93dd2989e630d56550f589fccdcda03.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: ts-jest
+  description: A preprocessor with source maps support to help use TypeScript with
+    Jest
+  package_url: https://www.npmjs.com/ts-jest
+  version: 23.10.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15864/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: tslint-config-prettier
+  description: Do you wanna use tslint and prettier without conflicts? tslint-config-prettier
+    disables all conflicting rules that may cause such problems
+  package_url: https://www.npmjs.com/tslint-config-prettier
+  version: 1.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16083/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: tslint-config-standard
+  description: A TSLint config for JavaScript Standard Style
+  package_url: https://www.npmjs.com/tslint-config-standard
+  version: 8.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16221/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
+- name: typedoc
+  description: Create api documentation for TypeScript projects
+  package_url: https://www.npmjs.com/typedoc
+  version: 0.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15983/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-07-01 12:12:11.000000000 Z
+- name: yaml
+  description: JavaScript parser and stringifier for YAML
+  package_url: https://www.npmjs.com/yaml
+  version: 1.10.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17426/default_4036a97a759f3ed3ec649b3a5fa230fe4d064a6a.png
+  detection_source_url: https://github.com/novuhq/envirocheck/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-06-29 08:08:52.000000000 Z
